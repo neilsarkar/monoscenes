@@ -1,7 +1,12 @@
 $(function() {
   if( !$("body.home").length ) return;
 
-  $(".js-overlay").animate({
-    opacity: 1
-  }, 5000, "easeInSine")
+  animate()
+
+  function animate() {
+    if( imagesLoaded < 2 ) { return setTimeout(animate, 100)}
+    $(".js-overlay").animate({
+      opacity: 1
+    }, 5000, "easeInSine")
+  }
 })

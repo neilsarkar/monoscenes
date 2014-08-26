@@ -2,12 +2,14 @@
   Monoscenes.
 </h1>
 
+<script>window.imagesLoaded = 0</script>
+
 <div class="shrine">
   <div class="backdrop panel">
-    <img src="/images/worship.jpg" />
+    <img src="/images/worship.jpg" class="js-backdrop" src="/images/worship.jpg" onload="window.imagesLoaded++"/>
   </div>
   <div class="overlay panel">
-    <img src="/images/julie.jpg" class="js-overlay"/>
+    <img src="/images/julie.jpg" class="js-overlay" onload="window.imagesLoaded++"/>
   </div>
 </div>
 
