@@ -1,0 +1,6 @@
+body.home h1 { text-align:center;}
+body.home .shrine { position: relative; text-align:center;}
+body.home .shrine .panel { position: absolute; top: 0; width: 100%;}
+body.home .shrine img { max-width: 100%;}
+body.home .shrine .overlay img { opacity: 0;}
+

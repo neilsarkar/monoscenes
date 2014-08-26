@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Monoscenes.</title>
+  <link href="/stylesheets/normalize.css" rel="stylesheet" />
+  <link href="/stylesheets/pages/home.css" rel="stylesheet" />
+</head>
+<body class="<%= @body_classes.join ' ' %>">
+  <%= yield %>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/javascripts/vendor/jquery.easing.js"></script>
+  <script src="/javascripts/pages/home.js"></script>
+</body>
+</html>
